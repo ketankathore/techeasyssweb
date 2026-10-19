@@ -47,9 +47,9 @@ const Navbar = ({ onOpenEstimator, onOpenContact, serverStatus }) => {
         {/* Brand Logo */}
         <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', textDecoration: 'none' }}>
           <img
-            src="/logo.svg"
+            src="/logo-icon.png"
             alt="TechEasy Logo"
-            style={{ width: '36px', height: '36px', filter: 'drop-shadow(0 2px 6px rgba(47, 202, 245, 0.4))' }}
+            style={{ width: '42px', height: '42px', objectFit: 'contain', filter: 'drop-shadow(0 2px 8px rgba(47, 202, 245, 0.45))' }}
           />
           <div>
             <div style={{ fontFamily: 'var(--font-heading)', fontSize: '1.35rem', fontWeight: 700, letterSpacing: '-0.02em', display: 'flex', alignItems: 'center', gap: '0.2rem' }}>

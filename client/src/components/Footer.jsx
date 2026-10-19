@@ -38,9 +38,9 @@ const Footer = ({ serverStatus }) => {
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem', marginBottom: '0.85rem' }}>
               <img
-                src="/logo.svg"
+                src="/logo-icon.png"
                 alt="TechEasy"
-                style={{ width: '34px', height: '34px', filter: 'drop-shadow(0 2px 6px rgba(47, 202, 245, 0.4))' }}
+                style={{ width: '40px', height: '40px', objectFit: 'contain', filter: 'drop-shadow(0 2px 8px rgba(47, 202, 245, 0.45))' }}
               />
               <span style={{ fontFamily: 'var(--font-heading)', fontSize: '1.4rem', fontWeight: 700, color: 'var(--text-primary)' }}>
                 Tech<span style={{ color: 'var(--kyndryl-orange)' }}>Easy</span>
