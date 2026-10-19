@@ -48,16 +48,16 @@ const Navbar = ({ onOpenEstimator, onOpenContact, serverStatus }) => {
         <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', textDecoration: 'none' }}>
           <img
             src="/logo-icon.png"
-            alt="TechEasy Logo"
+            alt="Tech Easy Software Solutions Logo"
             style={{ width: '42px', height: '42px', objectFit: 'contain', filter: 'drop-shadow(0 2px 8px rgba(47, 202, 245, 0.45))' }}
           />
           <div>
-            <div style={{ fontFamily: 'var(--font-heading)', fontSize: '1.35rem', fontWeight: 700, letterSpacing: '-0.02em', display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
+            <div style={{ fontFamily: 'var(--font-heading)', fontSize: '1.35rem', fontWeight: 700, letterSpacing: '-0.02em', display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
               <span style={{ color: 'var(--text-primary)' }}>Tech</span>
               <span style={{ color: 'var(--kyndryl-orange)' }}>Easy</span>
             </div>
-            <div style={{ fontFamily: 'var(--font-code)', fontSize: '0.62rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em', fontWeight: 600 }}>
-              Custom Web & Application Studio
+            <div style={{ fontFamily: 'var(--font-heading)', fontSize: '0.68rem', color: '#0284c7', textTransform: 'uppercase', letterSpacing: '0.08em', fontWeight: 600 }}>
+              Software Solutions
             </div>
           </div>
         </a>

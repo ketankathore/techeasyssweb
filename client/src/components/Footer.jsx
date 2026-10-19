@@ -42,9 +42,14 @@ const Footer = ({ serverStatus }) => {
                 alt="TechEasy"
                 style={{ width: '40px', height: '40px', objectFit: 'contain', filter: 'drop-shadow(0 2px 8px rgba(47, 202, 245, 0.45))' }}
               />
-              <span style={{ fontFamily: 'var(--font-heading)', fontSize: '1.4rem', fontWeight: 700, color: 'var(--text-primary)' }}>
-                Tech<span style={{ color: 'var(--kyndryl-orange)' }}>Easy</span>
-              </span>
+              <div>
+                <span style={{ fontFamily: 'var(--font-heading)', fontSize: '1.4rem', fontWeight: 700, color: 'var(--text-primary)', display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                  Tech<span style={{ color: 'var(--kyndryl-orange)' }}>Easy</span>
+                </span>
+                <div style={{ fontSize: '0.7rem', color: '#0284c7', fontWeight: 600, letterSpacing: '0.06em', textTransform: 'uppercase' }}>
+                  Software Solutions
+                </div>
+              </div>
             </div>
 
             <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.6, marginBottom: '1.25rem', maxWidth: '350px' }}>
@@ -162,7 +167,7 @@ const Footer = ({ serverStatus }) => {
           }}
         >
           <div>
-            &copy; {new Date().getFullYear()} TechEasy. Built with React.js, Node.js, Express & .NET Core.
+            &copy; {new Date().getFullYear()} Tech Easy Software Solutions. Built with React.js, Node.js, Express & .NET Core.
             KCE Park, Kanalda Road, Jalgaon 425001.
           </div>
 

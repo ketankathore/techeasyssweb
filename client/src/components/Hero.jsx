@@ -107,7 +107,7 @@ const Hero = ({ onOpenContact, onScrollToEstimator, onScrollToPortfolio }) => {
     } catch (err) {
       setApiPingResult({
         status: 'ok',
-        service: 'TechEasy Express API (Local Standalone)',
+        service: 'Tech Easy Express API (Local Standalone)',
         latency: '6ms',
         uptime: 'Active',
         timestamp: new Date().toLocaleTimeString(),

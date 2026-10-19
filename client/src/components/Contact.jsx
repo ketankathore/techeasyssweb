@@ -107,7 +107,7 @@ Additional project requirements: `,
   const getMailtoLink = () => {
     const subject = encodeURIComponent(`Project Inquiry from ${formData.name || 'Client'} [${formData.projectType}]`);
     const body = encodeURIComponent(
-      `Hi TechEasy Team,\n\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nCompany: ${formData.company}\nProject Type: ${formData.projectType}\nTimeline: ${formData.timeline}\n\nProject Scope & Requirements:\n${formData.details}\n`
+      `Hi Tech Easy Team,\n\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nCompany: ${formData.company}\nProject Type: ${formData.projectType}\nTimeline: ${formData.timeline}\n\nProject Scope & Requirements:\n${formData.details}\n`
     );
     return `mailto:techeasyss21@gmail.com?subject=${subject}&body=${body}`;
   };
@@ -115,7 +115,7 @@ Additional project requirements: `,
   // Helper to compose direct WhatsApp link to 7264983200
   const getWhatsAppLink = () => {
     const text = encodeURIComponent(
-      `Hello TechEasy Team,\n\nName: ${formData.name}\nPhone: ${formData.phone}\nProject: ${formData.projectType}\nDetails: ${formData.details}`
+      `Hello Tech Easy Team,\n\nName: ${formData.name}\nPhone: ${formData.phone}\nProject: ${formData.projectType}\nDetails: ${formData.details}`
     );
     return `https://wa.me/917264983200?text=${text}`;
   };

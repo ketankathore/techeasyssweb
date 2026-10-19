@@ -193,7 +193,7 @@ const TechStack = ({ techStack }) => {
                   Capability / Factor
                 </th>
                 <th style={{ padding: '0.85rem', color: 'var(--kyndryl-orange)', fontSize: '0.9rem', fontWeight: 700, fontFamily: 'var(--font-code)' }}>
-                  ⚡ TechEasy Custom (React + Express / .NET Core)
+                  ⚡ Tech Easy Custom (React + Express / .NET Core)
                 </th>
                 <th style={{ padding: '0.85rem', color: 'var(--text-muted)', fontSize: '0.8rem', fontFamily: 'var(--font-code)' }}>
                   Standard Templates / WordPress
