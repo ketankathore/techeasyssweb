@@ -112,7 +112,7 @@ const Navbar = ({ onOpenEstimator, onOpenContact, serverStatus }) => {
           <button
             onClick={onOpenContact}
             className="btn btn-primary btn-sm"
-            style={{ padding: '0.5rem 1rem' }}
+            style={{ padding: '0.5rem 1rem', color: '#ffffffff' }}
           >
             Inquire Brief <ArrowRight size={14} />
           </button>

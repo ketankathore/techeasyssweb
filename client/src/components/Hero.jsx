@@ -181,6 +181,7 @@ const Hero = ({ onOpenContact, onScrollToEstimator, onScrollToPortfolio }) => {
               onClick={onScrollToEstimator}
               className="btn btn-primary btn-lg"
               id="hero-estimator-btn"
+              style={{ color: "#ffffff" }}
             >
               Plan Project Scope <ArrowRight size={16} />
             </button>

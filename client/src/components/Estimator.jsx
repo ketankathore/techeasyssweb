@@ -360,7 +360,7 @@ const Estimator = ({ preselectedCategory, onLockEstimate }) => {
             <button
               onClick={handleLockIn}
               className="btn btn-primary"
-              style={{ width: '100%', padding: '0.85rem 1rem', fontSize: '0.95rem' }}
+              style={{ width: '100%', padding: '0.85rem 1rem', fontSize: '0.95rem', color: "#ffffff" }}
               id="lock-estimate-btn"
             >
               Discuss This Project Scope <ArrowRight size={16} />
