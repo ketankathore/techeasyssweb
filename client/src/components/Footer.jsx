@@ -167,7 +167,7 @@ const Footer = ({ serverStatus }) => {
           }}
         >
           <div>
-            &copy; {new Date().getFullYear()} Tech Easy Software Solutions. Built with React.js, Node.js, Express & .NET Core.
+            &copy; {new Date().getFullYear()} Tech Easy Software Solutions.
             KCE Park, Kanalda Road, Jalgaon 425001.
           </div>
 
