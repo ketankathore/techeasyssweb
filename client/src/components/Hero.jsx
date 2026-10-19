@@ -19,6 +19,7 @@ import {
   ExternalLink,
   Sparkles,
 } from 'lucide-react';
+import { apiUrl } from '../utils/api';
 
 const businessApps = [
   {
@@ -94,7 +95,7 @@ const Hero = ({ onOpenContact, onScrollToEstimator, onScrollToPortfolio }) => {
     setIsPinging(true);
     const start = performance.now();
     try {
-      const res = await fetch('/api/health');
+      const res = await fetch(apiUrl('/api/health'));
       const data = await res.json();
       const latency = Math.round(performance.now() - start);
       setApiPingResult({

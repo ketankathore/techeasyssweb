@@ -10,6 +10,7 @@ import {
   CheckCircle2,
   Cpu,
 } from 'lucide-react';
+import { apiUrl } from '../utils/api';
 
 const projectTypes = [
   { id: 'web-app', label: 'Custom Web Application', desc: 'Custom business logic, portals, multi-user operations' },
@@ -62,7 +63,7 @@ const Estimator = ({ preselectedCategory, onLockEstimate }) => {
     const fetchEstimate = async () => {
       setIsLoading(true);
       try {
-        const res = await fetch('/api/estimate', {
+        const res = await fetch(apiUrl('/api/estimate'), {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

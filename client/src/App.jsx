@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
+import { apiUrl } from './utils/api';
 
 // Fallback Services (Zero Payment Data)
 const fallbackServices = [
@@ -351,7 +352,7 @@ function App() {
   useEffect(() => {
     const checkServer = async () => {
       try {
-        const res = await fetch('/api/health');
+        const res = await fetch(apiUrl('/api/health'));
         if (res.ok) {
           setServerStatus('online');
         } else {
@@ -365,11 +366,11 @@ function App() {
     const loadData = async () => {
       try {
         const [servRes, portRes, techRes, testRes, faqRes] = await Promise.all([
-          fetch('/api/services'),
-          fetch('/api/portfolio'),
-          fetch('/api/tech-stack'),
-          fetch('/api/testimonials'),
-          fetch('/api/faqs'),
+          fetch(apiUrl('/api/services')),
+          fetch(apiUrl('/api/portfolio')),
+          fetch(apiUrl('/api/tech-stack')),
+          fetch(apiUrl('/api/testimonials')),
+          fetch(apiUrl('/api/faqs')),
         ]);
 
         if (servRes.ok) {

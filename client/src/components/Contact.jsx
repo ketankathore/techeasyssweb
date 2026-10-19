@@ -13,6 +13,7 @@ import {
   ShieldCheck,
   ExternalLink,
 } from 'lucide-react';
+import { apiUrl } from '../utils/api';
 
 const Contact = ({ initialFormData = null }) => {
   const [formData, setFormData] = useState({
@@ -68,7 +69,7 @@ Additional project requirements: `,
     };
 
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch(apiUrl('/api/contact'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
