@@ -1,0 +1,14 @@
+{
+  "name": "techeasy-root",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "TechEasy - Custom Web Applications & Web Sites Development Startup",
+  "scripts": {
+    "start": "node dev-runner.js",
+    "dev": "node dev-runner.js",
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run dev",
+    "build": "npm --prefix client run build",
+    "install:all": "npm install --prefix client; npm install --prefix server"
+  }
+}

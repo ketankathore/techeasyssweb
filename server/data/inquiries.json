@@ -1,0 +1,51 @@
+[
+  {
+    "id": "TE-2026-8077",
+    "name": "Ketan Kathore",
+    "email": "test@gmail.com",
+    "phone": "1234567890",
+    "company": "test",
+    "projectType": "Business Website",
+    "timeline": "Standard (3 - 5 Weeks)",
+    "details": "as per your convenience",
+    "createdAt": "2026-10-18T20:36:22.044Z",
+    "status": "NEW"
+  },
+  {
+    "id": "TE-2026-5997",
+    "name": "Verification Lead",
+    "email": "test@techeasy.in",
+    "phone": "7264983200",
+    "company": "Individual / Business",
+    "projectType": ".NET Core Web API",
+    "timeline": "Standard",
+    "details": "Testing mail sending and inquiry recording",
+    "createdAt": "2026-10-18T20:28:03.010Z",
+    "status": "NEW"
+  },
+  {
+    "id": "TE-2026-8877",
+    "name": "Ganesh Patil",
+    "email": "ganesh.patil@test.com",
+    "phone": "9823456789",
+    "company": "Patil Agro",
+    "projectType": "Custom Business Web Application",
+    "timeline": "3 - 5 Weeks",
+    "details": "Need an inventory stock tracking portal with bill printing and WhatsApp customer alerts.",
+    "createdAt": "2026-10-18T20:08:35.200Z",
+    "status": "NEW"
+  },
+  {
+    "id": "TE-2026-5062",
+    "name": "Sarah Connor",
+    "email": "sarah@cyberdyne.io",
+    "phone": "+1 (555) 789-1234",
+    "company": "Cyberdyne Systems",
+    "projectType": "B2B / SaaS Web App",
+    "budget": ",000 - ,000",
+    "timeline": "1 - 2 Months",
+    "details": "Need a high-security automated telemetry and asset dashboard with real-time WebSockets.",
+    "createdAt": "2026-10-18T19:41:50.188Z",
+    "status": "NEW"
+  }
+]
